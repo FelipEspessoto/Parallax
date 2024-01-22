@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body, html{
+    height: 100%;
+}
+.container{
+    height: 100vh;
+}
+.titles{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(217, 217, 217, 0.7);
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titles > h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.titles > h3{
+    font-size: 25px;
+    font-weight: 300;
+}
+#logo-corinthians{
+    width: 5em;
+}
+.sec-two-title{
+    top: 1600px;
+}
+.sec-third-title{
+    top: 2600px;
+}
+.sec-fourth-title{
+    top: 3600px;
+}
+.sec-two-title, .sec-third-title, .sec-fourth-title{
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec-one-txt, .sec-two-txt, .sec-third-txt, .sec-fourth-txt{
+    text-align: center;
+    color: rgb(80, 79, 79);
+    font-size: 16px;
+    font-weight: 300;
+    padding: 30px;
+}
+.sec-one{
+    background-image: url('https://centraldotimao.com.br/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-01-at-10.15.09-1.jpeg');
+    filter: contrast(80%) brightness(40%) opacity(70%);
+    min-height: 100%;
+    min-width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec-two{
+    background-image: url('https://cdn.meutimao.com.br/_upload/historia/titulos-conquistados/campeonato_brasileiro_1990.jpg');
+    filter: contrast(80%) brightness(40%) opacity(70%);
+    min-height: 100%;
+    min-width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec-third{
+    background-image: url('https://noticiasdotimao.com.br/wp-content/uploads/2022/04/Ta-a-Libertadores-Corinthians-2012-750x430.jpg');
+    filter: contrast(80%) brightness(40%) opacity(70%);
+    min-height: 100%;
+    min-width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec-fourth{
+    background-image: url('https://conteudo.imguol.com.br/2012/12/16/16dez2012---capitao-alessandro-levanta-a-taca-do-mundial-de-clubes-da-fifa-conquistado-apos-a-vitoria-por-1-a-0-sobre-o-chelsea-da-inglaterra-em-yokohama-no-japao-1355666273983_1920x1279.jpg');
+    filter: contrast(80%) brightness(40%) opacity(70%);
+    min-height: 100%;
+    min-width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 3300px;
+    display: flex;
+    justify-content: center;
+
+}
+.footer > .footer-logo{
+    width: 5em;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .titles{
+        width: 90%;
+        height: 190px;
+    }
+    .titles > h1{
+        font-size: 40px;
+    }
+    .titles > h3{
+        font-size: 30px;
+    }
+    #logo-corinthians{
+        width: 5em;
+    }
+    .sec-one-txt, .sec-two-txt, .sec-third-txt, .sec-fourth-txt{
+        font-size: 22px;
+
+    }
+    .sec-two-title, .sec-third-title, .sec-fourth-title{
+        font-size: 30px;
+    }
+    .sec-two-title{
+        top: 1750px;
+    }
+    .sec-third-title{
+        top: 2850px;
+    }
+    .sec-fourth-title{
+        top: 4050px;
+    }
+    .footer{
+        height: 80px;
+        top: 3650px;
+    }
+    .footer > .footer-logo{
+        width: 5em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .titles{
+        height: 150px;
+    }
+    .titles > h1{
+        font-size: 30px;
+    }
+    .titles > h3{
+        font-size: 24px;
+    }
+    #logo-corinthians{
+        width: 4em;
+    }
+    .sec-one-txt, .sec-two-txt, .sec-third-txt, .sec-fourth-txt{
+        font-size: 20px;
+    }
+    .sec-two-title, .sec-third-title, .sec-fourth-title{
+        font-size: 26px;
+    }
+    .sec-two-title{
+        top: 1600px;
+    }
+    .sec-third-title{
+        top: 2600px;
+    }
+    .sec-fourth-title{
+        top: 3700px;
+    }
+    .footer{
+        height: 80px;
+        top: 3500px;
+    }
+    .footer > .footer-logo{
+        width: 5em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titles{
+        height: 130px;
+    }
+    .titles > h1{
+        font-size: 26px;
+    }
+    .titles > h3{
+        font-size: 20px;
+    }
+    #logo-corinthians{
+        width: 3em;
+    }
+    .sec-one-txt, .sec-two-txt, .sec-third-txt, .sec-fourth-txt{
+        font-size: 16px;
+    }
+    .sec-two-title, .sec-third-title, .sec-fourth-title{
+        font-size: 20px;
+    }
+    .sec-two-title{
+        top: 1600px;
+    }
+    .sec-third-title{
+        top: 2600px;
+    }
+    .sec-fourth-title{
+        top: 3700px;
+    }
+    .footer{
+        height: 80px;
+        top: 3450px;
+    }
+    .footer > .footer-logo{
+        width: 5em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .titles{
+        height: 110px;
+    }
+    .titles > h1{
+        font-size: 20px;
+    }
+    .titles > h3{
+        font-size: 18px;
+    }
+    #logo-corinthians{
+        width: 3em;
+    }
+    .sec-one-txt, .sec-two-txt, .sec-third-txt, .sec-fourth-txt{
+        font-size: 16px;
+    }
+    .sec-two-title, .sec-third-title, .sec-fourth-title{
+        font-size: 16px;
+    }
+    .sec-two-title{
+        top: 1850px;
+    }
+    .sec-third-title{
+        top: 2950px;
+    }
+    .sec-fourth-title{
+        top: 4250px;
+    }
+    .footer{
+        height: 50px;
+        top: 4100px;
+    }
+    .footer > .footer-logo{
+        width: 3em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .titles > h1{
+        font-size: 18px;
+    }
+    .titles > h3{
+        font-size: 16px;
+    }
+    #logo-corinthians{
+        width: 3em;
+    }
+    .sec-one-txt, .sec-two-txt, .sec-third-txt, .sec-fourth-txt{
+        font-size: 14px;
+    }
+    .sec-two-title, .sec-third-title, .sec-fourth-title{
+        font-size: 16px;
+    }
+    .sec-two-title{
+        top: 1750px;
+    }
+    .sec-third-title{
+        top: 2850px;
+    }
+    .sec-fourth-title{
+        top: 4050px;
+    }
+    .footer{
+        height: 50px;
+        top: 3900px;
+    }
+    .footer > .footer-logo{
+        width: 3em;
+    }
+}
+@media screen and (max-width: 320px) {
+    .titles > h1{
+        font-size: 16px;
+    }
+    .titles > h3{
+        font-size: 14px;
+    }
+    #logo-corinthians{
+        width: 3em;
+    }
+    .sec-one-txt, .sec-two-txt, .sec-third-txt, .sec-fourth-txt{
+        font-size: 12px;
+    }
+    .sec-two-title, .sec-third-title, .sec-fourth-title{
+        font-size: 12px;
+    }
+    .sec-two-title{
+        top: 1650px;
+    }
+    .sec-third-title{
+        top: 2750px;
+    }
+    .sec-fourth-title{
+        top: 3950px;
+    }
+    .footer{
+        height: 50px;
+        top: 3750px;
+    }
+    .footer > .footer-logo{
+        width: 3em;
+    }
+    
+}
