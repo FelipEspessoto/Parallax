@@ -9,20 +9,22 @@
 <hr>
 
 📌 Image (1)
-![exampleUsed](https://github.com/FelipEspessoto/HTML-CSS/assets/98137286/7e18b165-1280-4800-8c6c-dd423e9431b7)
+![exampleUsed](https://github.com/FelipEspessoto/Parallax/assets/98137286/d2892b29-ea8b-434f-8745-e460e69aafe4)
 <hr>
 📌 Image (2)
 
-![print1](https://github.com/FelipEspessoto/HTML-CSS/assets/98137286/8d1fec7f-167e-4e99-b34e-32895baf446f)
+![print1](https://github.com/FelipEspessoto/Parallax/assets/98137286/587285a6-e964-4b52-9379-fa7ce8831aec)
 <hr>
 📌 Image (3)
 
-![print2](https://github.com/FelipEspessoto/HTML-CSS/assets/98137286/220af510-4e17-44c8-9ce7-c46a11cc3859)
+![print2](https://github.com/FelipEspessoto/Parallax/assets/98137286/b47d395b-d695-45ce-9af1-97efc629c842)
 <hr>
 📌 Image (4)
 
-![print3](https://github.com/FelipEspessoto/HTML-CSS/assets/98137286/c76043c3-0946-4cd0-8dca-70c03b6951d9)
+![print3](https://github.com/FelipEspessoto/Parallax/assets/98137286/adab39fc-83ab-48b4-ac4e-0d1bd78d8eda)
 <hr>
 📌 Image (5)
 
-![print4](https://github.com/FelipEspessoto/HTML-CSS/assets/98137286/9113ac29-1fb8-4a67-a79d-5206d393637b)
+![print4](https://github.com/FelipEspessoto/Parallax/assets/98137286/29bce9a1-fa62-49e0-8091-cb08fdc5800e)
+
+
